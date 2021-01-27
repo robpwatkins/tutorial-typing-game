@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: monospace;
 }
 
 .App-logo {
@@ -26,6 +27,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Character {
+  white-space: pre;
+}
+
+.Character-current {
+  background-color: #61dafb;
+}
+
+.Character-out {
+  color: silver;
 }
 
 @keyframes App-logo-spin {
