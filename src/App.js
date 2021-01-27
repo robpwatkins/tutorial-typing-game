@@ -64,7 +64,7 @@ function App() {
           <span className="Character-current">{currentChar}</span>
           <span>{incomingChars.substr(0, 20)}</span>
         </p>
-        <h3>WPM: {wpm} | ACC: {accuracy}%</h3>
+        <h3>WPM: {wpm} | ACC: {accuracy}% | {outgoingChars.split(' ').length}</h3>
         <a
           className="App-link"
           href="https://reactjs.org"
